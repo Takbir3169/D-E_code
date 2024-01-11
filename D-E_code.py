@@ -47,11 +47,11 @@ def load(word):
 def banner_dec():
     banner = '''{}'''.format(m)
     print(banner)
-    os.system('figlet -f slant "MAF office"')
+    os.system('figlet -f slant "Timur"')
 def banner_enc():
     banner = '''{}'''.format(m)
     print(banner)
-    os.system('figlet -f slant "MAF office"')
+    os.system('figlet -f slant "Timur"')
 def running(s):
 	try:
 		for c in s + '\n':
@@ -106,13 +106,13 @@ def b_menu():
         ====UU====UU====
             '//||\\`
               ''`
-        Smoke / Smoke Office / D-E code
+        Timur / Timue Office / D-E code
 """,0.001)
 def menu():
     clr()
     b_menu()
-    running('\n{}[{}1{}]{} Smoke / ENCODER\n{}[{}2{}]{} Smoke / DECODER \n'.format(m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p))
-    asww = raw_input('{}[{}*{}]{} RUBIKA : @Spoilede \n Choose {}>> {}'.format(m,p,m,p,k,p))
+    running('\n{}[{}1{}]{} Timur / ENCODER\n{}[{}2{}]{} Timur / DECODER \n'.format(m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p))
+    asww = raw_input('{}[{}*{}]{} RUBIKA : @Takbir_co \n Choose {}>> {}'.format(m,p,m,p,k,p))
     if asww == '1' or asww == '01':
 	load('Running >>> ')
 	menu_enc()
